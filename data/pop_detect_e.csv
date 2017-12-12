@@ -1,0 +1,43 @@
+Contaminant,POPULATION_SERVED_COUNT,GROUP
+chlorate,198081426,dbp
+testosterone,14666869,hormone
+"4-androstene-3,17-dion",14256254,hormone
+17-alpha-ethynylestrad,2999147,hormone
+17-beta-estradiol,171200,hormone
+estriol,16328,hormone
+estrone,0,hormone
+equilin,0,hormone
+strontium,246860224,metal
+chromium-6,236499497,metal
+chromium,209288600,metal
+vanadium,200694333,metal
+molybdenum,148482447,metal
+cobalt,15623790,metal
+PFOS,10814593,pfas
+PFHpA,9205396,pfas
+PFOA,8152312,pfas
+PFHxS,5780770,pfas
+PFNA,550295,pfas
+PFBS,292487,pfas
+"1,4-dioxane",86050904,soc
+Halon 1011,31354578,voc
+HCFC-22,29270383,voc
+"1,1-dichloroethane",21300861,voc
+chloromethane,7227608,voc
+"1,2,3-trichloropropane",5917972,voc
+bromomethane,2045019,voc
+"1,3-butadiene",428761,voc
+manganese,2474498,
+germanium,66350,
+n-propylbenzene,63003,
+Aerobic spores,30543,
+Enterococci,4811,
+Total coliforms,4515,
+Male specific phage,1344,
+Enteroviruses (RT-qPCR,989,
+Somatic phage,920,
+Noroviruses GIA,416,
+E. coli,378,
+Noroviruses GII,353,
+Noroviruses GIB,87,
+Enteroviruses (cell cu,62,

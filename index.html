@@ -1,0 +1,536 @@
+<!doctype html>
+<html  xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quality of water in the US - unregulated chemicals in your tap water.</title>
+
+	<!-- Load CSS files -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Contrail+One|Cormorant+Garamond|Open+Sans:1500|Julius+Sans+One|Montserrat|Playfair+Display" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/leaflet.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleMap.css">
+
+
+</head>
+<body data-spy="scroll" data-target="#scrollSpy" data-offest="20">
+
+	<div class="container-fluid">
+
+
+        <div class="row">
+
+            <!-- MENU -->
+            <div class="col-lg-1 col-md-1 col-sm-1">
+                <nav id="scrollSpy" class="greenbluebackground">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li>
+                            <a href="#section1">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="#section2">Timeline</a>
+                        </li>
+                        <li>
+                            <a href="#section3">Contaminants Tree</a>
+                        </li>
+                        <li>
+                            <a href="#section4">Contamination Ranking</a>
+                        </li>
+                        <li>
+                            <a href="#section5">Water Map</a>
+                        </li>
+                        <li>
+                            <a href="#section6">Your Action</a>
+                        </li>
+                        <li>
+                            <a href="#section7">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-lg-11 col-md-11 col-sm-11">
+
+                <!-- parallax intro -->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="parallax">
+                            <div class="parallax_group1">
+                                <div class="parallax_layer parallax_layer-6">
+                                    <div class="WIMW">
+                                        <img src="img/WIMW1.png" />
+                                    </div>
+                                </div>
+                                <div class="parallax_layer parallax_layer-5">
+
+                                </div>
+                                <div class="parallax_layer parallax_layer-3">
+                                    <div class="faucet">
+                                        <img src="img/faucet1.png" />
+                                    </div>
+                                </div>
+                                <div class="parallax_layer parallax_layer-2">
+                                    <div class="droplet">
+                                        <img src="img/droplet.png" />
+                                    </div>
+                                </div>
+                                <div class="parallax_layer parallax_layer-0">
+                                    <div class="sink">
+                                        <img src="img/water1.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- counter -->
+                <div class="row" id="section1">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="title2 shadow greenbackground"><span>How many drinking water contaminants are regulated?</span></div>
+                    </div>
+                    <div class="row greenbluebackground">
+                            <div style="padding: 60px 100px 40px 0 !important;"></div>
+                            <div id="precounter">
+                                <h2>
+                                    <br>
+                                    <p>There are more than 80,000 chemicals used in industry and commerce.</p>
+                                    <p>How many of them do you think are regulated in drinking water in the United States?</p>
+                                </h2>
+                            </div>
+                            <div id="counter"></div>
+                            <div id="counterbuttondiv"><button class="counterbutton" onclick=createCountUp()>Click to reveal the answer</button></div>
+                            <div id="postcounter">
+                                <h2>
+                                <p>Only 96 out of 80,000! The majority of chemicals in drinking water are NOT regulated.</p>
+                                    <p>What have been done?      What do the latest data show?</p>
+                                    <p>What about your own county?      What can you do?</p>
+                                    <br>
+                                    <p>This website allows you to find out more about tap water quality in your home county, as well as the entire continental US.</p>
+                                    <p style="padding-bottom: 40px;">We will look closer into 28 potentially most harmful chemicals, which are currently beyond government's regulation.</p>
+                                </h2>
+                            </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- timeline -->
+                <div class="row greenbluebackground" id="section2">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="title2 greenbackground shadow"><span>Drinking water crises and regulations</span></div>
+                        </div>
+                        <div class="row greenbluebackground" style="padding: 40px 20px 0 40px;">
+                                <div class="green col-sm-2 col-md-2 col-lg-2"></div>
+                                <div class="col-sm-2 col-md-2 col-lg-2 desc_LEGEND">Water Crisis Events</div>
+                                <div class="blue col-sm-2 col-md-2 col-lg-2"></div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 desc_LEGEND">Water Legislation</div>
+                        </div>
+                        <div class="row greenbluebackground">
+                            <div id="timeline"></div>
+                        </div>
+                        <div class="row greenbluebackground" style="height:600px;">
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <div id="headline"></div>
+                                <div id="description"></div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div id="tooltip">
+                                    <div class="row">
+                                        <div id="title"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div id="location"></div><div id="year"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div id="image"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- tree -->
+                <div class="row" id="section3">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="title2 shadow greenbackground"><span>What will you see here?</span></div>
+                        </div>
+                        <div class="row">
+
+                        </div>
+                        <div class="row greenbluebackground">
+                            <div id="tree" class="greenbluebackground">
+                                <div class="col-lg-5 col-md-5 col-sm-12">
+                                    <div style="padding: 15px 100px 15px 15px !important;">
+                                        <div class="shadow desc1" style="padding: 5px 10px 10px 25px !important; background-color: #82c798; border-radius: 5px;">
+                                            <p><b>CLICK</b> on the circle to explore the 28
+                                            chemical contaminants covered in this interactive website, and
+                                                the label to learn more about these chemicals.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--bubble chart-->
+                <div class="row" id="section4">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+
+                        <div class="row">
+                            <div class="title2 greenbackground shadow"><span>Let's look at the latest data.</span></div>
+                        </div>
+
+                        <div class="row greenbluebackground">
+                            <h2 class="CM_desc">
+                                <p>The graph presents all the counties in the US.
+                                The y-axis is the Water contamination index<sup>*</sup>. Lower scores mean better quality.
+                                The x-axis is the number of water samples tested in a county. Higher numbers mean more extensive examination.
+                                The bubble size represents the population size of a county.</p>
+                                <p style="font-size:14px;"><sup>*</sup>Water contamination index = log base 10 of ratio between concentration and Method Reporting Limit (MRL).
+                                    <br>e.g., chemical X is detected at 100 times the MRL, then its water contamination index is log_10(100)=2.</p>
+
+                            </h2>
+
+                            <div class="form-group col-sm-4">
+                                    <label for="rankingType">Select the unregulated chemical for the graph</label>
+                                    <form id ="y-var-input">
+                                        <ul>
+                                            <li class="checklist">
+                                                <input type="radio" name="ranking-select" value="indices.sum" checked="checked"> Summary score
+                                            </li>
+                                            <li class="checklist">
+                                                <input type="radio" name="ranking-select" value="metal.indices.avg" > Heavy metals
+                                            </li>
+                                            <li class="checklist">
+                                                <input type="radio" name="ranking-select" value="pfas.indices.avg"> Highly fluorinated compounds
+                                            </li>
+                                            <li class="checklist">
+                                                <input type="radio" name="ranking-select" value="soc.indices.avg" > Synthetic organic contaminants
+                                            </li>
+                                            <li class="checklist">
+                                                <input type="radio" name="ranking-select" value="voc.indices.avg" > Volatile organic contaminants
+                                            </li>
+                                            <li class="checklist">
+                                                <input type="radio" name="ranking-select" value="dbp.indices.avg" > Disinfection byproducts
+                                            </li>
+                                            <li class="checklist">
+                                                <input type="radio" name="ranking-select" value="horm.indices.avg" > Hormones
+                                            </li>
+                                        </ul>
+                                    </form>
+                            </div>
+                            <div class="form-group col-sm-3">
+                                <label for="regionType">Select the regions to be colored in the graph</label>
+                                <ul>
+                                    <li class="NE US_regions">
+                                        <input type="checkbox" class= "regioncheckNorth-East" id="checkNE"> North East
+                                    </li>
+                                    <li class="MA US_regions">
+                                        <input type="checkbox" class= "regioncheckMid-Atlantic" id="checkMA"> Mid-Atlantic
+                                    </li>
+                                    <li class="SE US_regions">
+                                        <input type="checkbox" class= "regioncheckSouth-East" id="checkSE"> South-East
+                                    </li>
+                                    <li class="MW US_regions">
+                                        <input type="checkbox" class= "regioncheckMid-West" id="checkMW"> Mid-West
+                                    </li>
+                                    <li class="SW US_regions">
+                                        <input type="checkbox" class= "regioncheckSouth-West" id="checkSW"> South West
+                                    </li>
+                                    <li class="NW US_regions">
+                                        <input type="checkbox" class= "regioncheckNorth-West" id="checkNW"> North West
+                                    </li>
+                                    <li class="W US_regions">
+                                        <input type="checkbox" class= "regioncheckWest" id="checkW"> West
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-5">
+                                <label for="countySearch">Highlight a County by typing in its name</label>
+                                <p>
+                                    <input type="text" id="searchBox">
+                                    <input type="button" class='counterbutton' id="search" value="Search by County name"/>
+                                </p>
+                                <img id="mapregions" src="img/map.png"/>
+                            </div>
+                        </div>
+
+                        <div class="row greenbluebackground">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-7 col-sm-12">
+                                    <div id="chart-area" style="min-width: 135%;"></div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-sm-12">
+                                    <div class="label-five">
+                                        Five counties with the highest contamination results in the USA
+                                    </div>
+                                    <div class="row">
+                                        <div id="barchart"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!--choroplethmap-->
+                <div class="row" id="section5">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+
+                        <div class="row">
+                            <div class="title2 greenbackground shadow"><span>What's in your water?</span></div>
+                        </div>
+
+                        <div class="row greenbluebackground">
+                            <!-- Headline -->
+                            <h2 class="CM_desc">The latest survey of unregulated contaminants in U.S. tap water is the EPA third Unregulated
+                                Contaminant Monitoring Rule. All public water supplies serving more than 10,000 people and 800 representative PWSs serving
+                                10,000 or fewer people monitored for 28 chemical contaminants from 6 groups during a 12-month period from January 2013
+                                through December 2015. Explore the tap water contamination level by county or state by
+                                hovering over of clicking the region on the map.</h2>
+                            <form class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-2 col-sm-2">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="ranking-type" value="indices.sum" checked="checked"> Summary score
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="ranking-type" value="metal.indices.avg" > Heavy metals
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="ranking-type" value="pfas.indices.avg"> Highly fluorinated compounds
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="ranking-type" value="soc.indices.avg" > Synthetic organic contaminants
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="ranking-type" value="voc.indices.avg" > Volatile organic contaminants
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="ranking-type" value="dbp.indices.avg" > Disinfection byproducts
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-2">
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="ranking-type" value="horm.indices.avg" > Hormones
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="row greenbluebackground">
+                            <div class="col-lg-10 col-md-12 col-sm-12">
+                                <!-- Visualization placeholders -->
+                                <div id="map-area"></div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 col-sm-12">
+                                <!-- Visualization placeholders -->
+                                <div id="content-area"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--what can you do?-->
+                <div class="row" id="section6">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="title2 greenbackground shadow"><span>What can you do to help?</span></div>
+                        </div>
+
+                        <div class="row greenbluebackground">
+                            <h2 id="final" style="width:92%" >There are a variety of ways you can help, from activism and “good” citizenship (e.g., organizing demonstrations, voting) to private-sphere behaviors. </h2>
+                        </div>
+
+                        <div class="row greenbluebackground">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-padding">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <img src="img/lab.png" alt="lab testing icon" class="action-icon">
+                                        Contaminated tap water may look fine, smell fine, and taste fine.
+                                        The best way to figure out the water quality is to send it for testing.
+                                        If you are interested in testing your tap water for the list of compounds shown on this website.
+                                        Here is a list of labs certified by the Environmental Protection Agency.
+                                    </div>
+                                    <div class="panel-footer greenbackground">
+                                        <a href="https://batchgeo.com/map/df7ff04da40da324ed2220e17063bf66" target="_blank" class="btn btn-success btn-block greenbluebackground">Send tap water for lab testing</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-padding">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <img src="img/activism.png" alt="activism icon" class="action-icon">
+                                        Tap water is a public good and deserves a systematic fix. The best way to demonstrate your green citizenship is to
+                                        let your voice be heard. This way you also help underprivileged groups who may not have the resources to reach out. You can reach out to local political officials and express your concern.
+                                    </div>
+                                    <div class="panel-footer greenbackground">
+                                        <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" class="btn btn-success btn-block greenbluebackground">Contact your representatives</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-padding">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <img src="img/ngo.png" alt="ngo icon" class="action-icon">
+                                        Some NGOs in the US have realized this challenge the country faces and started to provide information to the public on tap water quality.
+                                        Environmental Working Group has assembled over 30 million data entries from 50 states over the
+                                        last decade and curated them in their tap water quality database.
+                                    </div>
+                                    <div class="panel-footer greenbackground">
+                                        <a href="https://www.ewg.org/tapwater" target="_blank" class="btn btn-success btn-block greenbluebackground">Donate to NGOs</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 card-padding">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <img src="img/filter.png" alt="ngo icon" class="action-icon">
+                                        Skip that bottled water! Bottled water is NOT better quality and is usually BAD for the environment.
+                                        An alternative quick-fix (though not perfect) is to use a water filter at home.
+                                        There is no one size fits all, the best water filter will fit your own needs and the budget of your family. We have a guide for you.
+                                    </div>
+                                    <div class="panel-footer greenbackground">
+                                        <a href="https://www.ewg.org/tapwater/water-filter-guide.php#.Wil5ErQ-dE4" target="_blank" class="btn btn-success btn-block greenbluebackground">Buy a water filter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABOUT US -->
+                <div class="row" id="section7">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="title2 greenbackground shadow"><span>Who We Are</span></div>
+                        </div>
+                        <div class="row greenbluebackground">
+
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 card-padding">
+                                <div class="panel panel-default">
+                                    <h3 class="AU_name">Xindi (Cindy) Hu</h3>
+                                    <div class="panel-body">
+                                        <img src="img/Cindy.jpg" class="AU_image">
+                                        <p class="AU_desc">
+                                            Cindy is a doctoral candidate in Environmental Health at Harvard T.H.Chan School of Public Health. Her thesis examines
+                                            drinking water contaminants in the U.S. and their relevant human health risks.
+                                        </p>
+                                    </div>
+                                    <div class="panel-footer greenbackground">
+                                        <a href="https://scholar.harvard.edu/cindyhu/home" target="_blank" class="btn btn-success btn-block greenbluebackground">Go to Cindy's website</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 card-padding">
+                                <div class="panel panel-default">
+                                    <h3 class="AU_name">Dan Tompkins</h3>
+                                    <div class="panel-body">
+                                        <img src="img/Dan.jpg" class="AU_image">
+                                        <p class="AU_desc">
+                                            Daniel is a candidate for Masters in Design Studies (MDes-- Art, Design, and the Public Domain) at Harvard University. He received a Bachelor of Architecture from Cornell University and works in a variety of design media.
+                                        </p>
+                                    </div>
+                                    <div class="panel-footer greenbackground">
+                                        <a href="http://www.danielwilliamtompkins.com/" target="_blank" class="btn btn-success btn-block greenbluebackground">Go to Dan's website</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 card-padding">
+                                <div class="panel panel-default">
+                                    <h3 class="AU_name">Paul von Chamier</h3>
+                                    <div class="panel-body">
+                                        <img src="img/Paul.jpg" class="AU_image">
+                                        <p class="AU_desc">
+                                            Paul is a candidate for Masters in Public Administration in International Development
+                                            at Harvard University. He specializes in data analysis and econometrics.
+                                            He gathered professional experience at the World Bank and Procter&Gamble eBusiness.
+                                        </p>
+                                    </div>
+                                    <div class="panel-footer greenbackground">
+                                        <a href="https://www.linkedin.com/in/paul-von-chamier-3559b64b/" target="_blank" class="btn btn-success btn-block greenbluebackground">Go to Paul's website</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+                        <!-- Load JS libraries: jQuery, bootstrap, D3 -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/d3.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script src="js/d3-legend.js"></script>
+	<script src="js/topojson.v2.min.js"></script>
+	<script src="js/queue.min.js"></script>
+	<script src="js/leaflet.js"></script>
+
+    <!-- Choropleth implementation -->
+    <script src="js/L.Control.ZoomMin.js"></script>
+    <script src="js/choroplethMap.js"></script>
+    <script src="js/mainMap.js"></script>
+
+	<!-- Scatterplot implementation -->
+	<script src="js/d3-color.v1.min.js"></script>
+	<script src="js/d3-interpolate.v1.min.js"></script>
+	<script src="js/d3-scale-chromatic.v1.min.js"></script>
+	<script src="js/main.js"></script>
+
+    <!-- Counter implementation -->
+    <script src="js/typed.min.js"></script>
+    <script src="js/countUp.js"></script>
+    <script src="js/counter.js"></script>
+
+	<!-- Tree implementation -->
+	<script src="js/tree.js"></script>
+
+	<!-- Timeline implementation -->
+	<script src="js/timeline.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+{
+  "name": "Unregulated chemicals",
+  "url": "https://www.epa.gov/dwucmr/third-unregulated-contaminant-monitoring-rule",
+  "parent": "null",
+  "children": [
+    {
+      "name": "Volatile organic compounds",
+      "color": "#000000",
+      "parent": "Unregulated chemicals",
+      "url":"https://en.wikipedia.org/wiki/Volatile_organic_compound",
+      "children": [
+        {
+          "name": "1,2,3-trichloropropane",
+          "parent": "Volatile organic compounds",
+          "url": "https://en.wikipedia.org/wiki/1,2,3-Trichloropropane"
+        },
+        {
+          "name": "1,3-butadiene",
+          "parent": "Volatile organic compounds",
+          "url":"https://en.wikipedia.org/wiki/1,3-Butadiene"
+        },
+        {
+          "name": "chloromethane (methyl chloride)",
+          "parent": "Volatile organic compounds",
+          "url":"https://en.wikipedia.org/wiki/Chloromethane"
+        },
+        {
+          "name": "1,1-dichloroethane",
+          "parent": "Volatile organic compounds",
+          "url": "https://en.wikipedia.org/wiki/1,1-Dichloroethane"
+        },
+        {
+          "name": "bromomethane (methyl bromide)",
+          "parent": "Volatile organic compounds",
+          "url": "https://en.wikipedia.org/wiki/Bromomethane"
+        },
+        {
+          "name": "chlorodifluoromethane (HCFC-22)",
+          "parent": "Volatile organic compounds",
+          "url":"https://en.wikipedia.org/wiki/Chlorodifluoromethane"
+        },
+        {
+          "name": "bromochloromethane (halon 1011)",
+          "parent": "Volatile organic compounds",
+          "url":"https://en.wikipedia.org/wiki/Bromochloromethane"
+        }
+      ]
+    },
+    {
+      "name": "Synthetic organic compound",
+      "color": "#999999",
+      "parent": "Unregulated chemicals",
+      "url":"https://en.wikipedia.org/wiki/Organic_compound#Synthetic_compounds",
+      "children": [
+        {
+          "name": "1,4-dioxane",
+          "parent": "Synthetic organic compound",
+          "url": "https://en.wikipedia.org/wiki/1,4-Dioxane"
+        }
+       ]
+    },
+    {
+      "name": "Heavy metals",
+      "color": "#888888",
+      "parent": "Unregulated chemicals",
+      "url":"https://en.wikipedia.org/wiki/Heavy_metals",
+      "children": [
+        {
+          "name": "vanadium",
+          "parent": "Metals",
+          "url":"https://en.wikipedia.org/wiki/Vanadium"
+        },
+        {
+          "name": "molybdenum",
+          "parent": "Metals",
+          "url":"https://en.wikipedia.org/wiki/Molybdenum"
+        },
+        {
+          "name": "cobalt",
+          "parent": "Metals",
+          "url":"https://en.wikipedia.org/wiki/Cobalt"
+        },
+        {
+          "name": "strontium",
+          "parent": "Metals",
+          "url":"https://en.wikipedia.org/wiki/Strontium"
+        },
+        {
+          "name": "chromium",
+          "parent": "Metals",
+          "url":"https://en.wikipedia.org/wiki/Chromium"
+        },
+        {
+          "name": "chromium-6",
+          "parent": "Metals",
+          "url":"https://en.wikipedia.org/wiki/Hexavalent_chromium"
+        }                      
+       ]
+    },
+    {
+      "name": "Disinfection byproduct",
+      "color": "#777777",
+      "parent": "Unregulated chemicals",
+      "url":"https://en.wikipedia.org/wiki/Disinfection_by-product",
+      "children": [
+        {
+          "name": "chlorate",
+          "parent": "Disinfection byproduct",
+          "url":"https://en.wikipedia.org/wiki/Chlorate"
+        }
+       ]
+    },
+    {
+      "name": "Highly fluorinated compounds",
+      "color": "#666666",
+      "parent": "Unregulated chemicals",
+      "url":"https://en.wikipedia.org/wiki/Perfluorinated_compound",
+      "children": [
+        {
+          "name": "perfluorooctanesulfonic acid (PFOS)",
+          "parent": "Highly fluorinated compounds",
+          "url":"https://en.wikipedia.org/wiki/Perfluorooctanesulfonic_acid"
+        },
+        {
+          "name": "perfluorooctanoic acid (PFOA)",
+          "parent": "Highly fluorinated compounds",
+          "url":"https://en.wikipedia.org/wiki/Perfluorooctanoic_acid"
+        },
+        {
+          "name": "perfluorononanoic acid (PFNA)",
+          "parent": "Highly fluorinated compounds",
+          "url":"https://en.wikipedia.org/wiki/Perfluorononanoic_acid"
+        },
+        {
+          "name": "perfluorohexanesulfonic acid (PFHxS)",
+          "parent": "Highly fluorinated compounds",
+          "url":"https://pubchem.ncbi.nlm.nih.gov/compound/Perfluorohexanesulfonic_acid"
+        },
+        {
+          "name": "perfluoroheptanoic acid (PFHpA)",
+          "parent": "Highly fluorinated compounds",
+          "url":"https://pubchem.ncbi.nlm.nih.gov/compound/Perfluoroheptanoic_acid"
+        },
+        {
+          "name": "perfluorobutanesulfonic acid (PFBS)",
+          "parent": "Highly fluorinated compounds",
+          "url":"https://en.wikipedia.org/wiki/Perfluorobutanesulfonic_acid"
+        }
+       ]
+    },
+    {
+      "name": "Hormones",
+      "color": "#555555",
+      "parent": "Unregulated chemicals",
+      "url":"https://en.wikipedia.org/wiki/Hormone",
+      "children": [
+        {
+          "name": "17-β-estradiol",
+          "parent": "Hormones",
+          "url":"https://en.wikipedia.org/wiki/Estradiol"
+        },
+        {
+          "name": "17-α-ethynylestradiol (ethinyl estradiol)",
+          "parent": "Hormones",
+          "url":"https://en.wikipedia.org/wiki/Ethinylestradiol"
+        },
+        {
+          "name": "16-α-hydroxyestradiol (estriol)",
+          "parent": "Hormones",
+          "url":"https://en.wikipedia.org/wiki/Estriol"
+        },
+        {
+          "name": "equilin",
+          "parent": "Hormones",
+          "url":"https://en.wikipedia.org/wiki/Equilin"
+        },
+        {
+          "name": "estrone",
+          "parent": "Hormones",
+          "url":"https://en.wikipedia.org/wiki/Estrone"
+        },
+        {
+          "name": "testosterone",
+          "parent": "Hormones",
+          "url":"https://en.wikipedia.org/wiki/Testosterone"
+        },
+        {
+          "name": "4-androstene-3,17-dione",
+          "parent": "Hormones",
+          "url":"https://en.wikipedia.org/wiki/Androstenedione"
+        }
+       ]
+    }
+  ]
+}

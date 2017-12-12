@@ -1,0 +1,211 @@
+[
+  {
+    "id": 0,
+    "y": 0,
+    "type": "event",
+    "title": "Hinkley Groundwater Contamination",
+    "year": 1952,
+    "location": "Hinkley, CA",
+    "headline": "",
+    "description": "Beginning in the early 1950’s, Pacific Gas & Electric dumped cooling tower wastewater containing hexavalent chromium into the desert near their gas pipelines, but did not inform anyone of the contamination until 1987. In the 1990s, a legal clerk named Erin Brockovich investigated the high number of cancer cases in Hinkley and residents filed a lawsuit against PG&E. The case gained national notoriety after the release of a movie about the legal clerk, which starred Julia Roberts. PG&E paid almost $300 million to settle various claims from people with health problems related to the water contamination and the company has since spent over $750 million on remediation efforts.",
+    "image": "img/Detail_Hinkley_protest_sign.jpg"
+  },
+  {
+    "id": 1,
+    "y": 0,
+    "type": "event",
+    "title": "Camp Lejeune Water Contamination Incident",
+    "year": 1953,
+    "location": "Jacksonville, NC",
+    "headline": "",
+    "description": "For at least 30 years, residents of Marine Corps Base Camp Lejeune drank and bathed in water containing 240 to 3400 times the allowed levels of more than 70 harmful chemicals, possibly the result of well contamination from a dry cleaning company, military chemical use, and fuel leaks. Testing in the early 1980s revealed water poisoning, but the wells remained in use until benzene was detected in 1984. In 1999, former base residents were notified that they might have consumed contaminated water. In 2012, the Janey Ensminger Act authorized free VA medical care for people who developed certain medical conditions linked to the contaminated water.",
+    "image": "img/image.jpg"
+  },
+  {
+    "id": 2,
+    "y": 0,
+    "type": "legislation",
+    "title": "Community Water Supply Study (CWSS)",
+    "year": 1969,
+    "location": "",
+    "headline": "",
+    "description": "This investigation of the pubic water supply systems in the US included 969 water supply systems serving about 18.2 million people. It was designed to assess the status of drinking water quality; water supply system facilities; and bacteriological surveillance programs in urban and suburban areas in nine regions of the country. CWSS found widespread water quality problems (inorganic).",
+    "image": "img/CWSS.jpg"
+  },
+  {
+    "id": 3,
+    "y": 0,
+    "type": "legislation",
+    "title": "Clean Water Act (CWA)",
+    "year": 1972,
+    "location": "",
+    "headline": "",
+    "description": "The CWA is the primary federal law in the US governing water pollution. Its objective is to restore and maintain the chemical, physical, and biological integrity of the nation's waters by preventing point and nonpoint pollution sources, providing assistance to publicly owned treatment works for the improvement of wastewater treatment, and maintaining te integrity of wetlands.",
+    "image": "img/CWA.png"
+  },
+  {
+    "id": 4,
+    "y": 40,
+    "type": "legislation",
+    "title": "National Pollutant Discharge Elimination System (NPDES)",
+    "year": 1972,
+    "location": "",
+    "headline": "",
+    "description": "The NPDES permit program is authorized to state governments by EPA to perform many permitting, administrative, and enforcement aspects of the Clean Water Act. It addresses water pollution by regulating point sources that discharge pollutants to waters of the United States. Organic contaminants in drinking water becomes a topic of concern.",
+    "image": "img/NPDES.png"
+  },
+  {
+    "id": 5,
+    "y": 0,
+    "type": "legislation",
+    "title": "Safe Drinking Water Act (SDWA)",
+    "year": 1974,
+    "location": "",
+    "headline": "Initial 30 chemicals regulated under SDWA",
+    "description": "The SDWA is the main federal law that ensures the quality of Americans' drinking water. Under SDWA, EPA sets standards for drinking water quality and oversees the states, localities, and water suppliers who implement those standards",
+    "image": "img/SDWA.png"
+  },
+  {
+    "id": 6,
+    "y": 0,
+    "type": "legislation",
+    "title": "National Organics Reconnaissance Survey (NORS)",
+    "year": 1975,
+    "location": "",
+    "headline": "",
+    "description": "This comprehensive study of organic chemicals in drinking water was prompted by the findings of a similar study of water in the New Orleans area. Eighty sites around the United States were chosen, after which the Environmental Protection Agency analyzed water samples from these areas. Data were also compiled on supply sources, treatment practices, raw-water chlorination, free and combined chlorine residuals, and the influence of various treatment methods.",
+    "image": "img/NORS.jpg"
+  },
+  {
+    "id": 7,
+    "y": 0,
+    "type": "event",
+    "title": "Woburn Water Contamination Crisis",
+    "year": 1979,
+    "headline": "",
+    "location": "Woburn, MA",
+    "description": "In the 1970s, residents grew concerned about the unusual prevalence of childhood illnesses, such as leukemia, in certain areas. Testing revealed high VOC levels in two city water wells supplying a neighborhood where 21 children had been diagnosed with leukemia and 12 died. The parents of affected children brought a lawsuit against W.R. Grace and Company and Beatrice Foods, who were accused of improperly disposing of industrial solvents and poisoning groundwater near the affected wells, but Grace and Company was acquitted and Beatrice paid only $8 million.",
+    "image": "img/decayingbarrels.jpg"
+  },
+  {
+    "id": 8,
+    "y": 0,
+    "type": "event",
+    "title": "DuPont Chemical, GenX",
+    "year": 1980,
+    "location": "Wilmington, NC",
+    "headline": "",
+    "description": "A DuPont plant manufacturing GenX, a cancer-causing chemical, began releasing the substance into the Cape Fear River upstream of the point where the Wilmington water supply is drawn. Though the health effects of GenX are still unknown, research has revealed that similar substances produce reproductive defects and tumors in rats, and Wilmington residents are concerned about increased occurrence of childhood cancer. As of 2017, DuPont states that the plant emissions do not impact drinking water safety.",
+    "image": "img/AR-170608551.jpg"
+  },
+  {
+    "id": 9,
+    "y": 0,
+    "type": "legislation",
+    "title": "Safe Drinking Water Act Amendments (SDWAAs)",
+    "year": 1986,
+    "location": "",
+    "headline": "66 more chemicals added to registry, last regulations",
+    "description": "These SDWAAs added 66 new regulations and 16 revisions to the SWA, implemented through 1992. The EPA was tasked with identifying and regulating contaminants (25 every three years).",
+    "image": "img/SDWAAs.jpg"
+  },
+  {
+    "id": 10,
+    "y": 40,
+    "type": "event",
+    "title": "Crestwood Water Scandal",
+    "year": 1986,
+    "location": "Crestwood, IL",
+    "headline": "",
+    "description": "In 1986, a municipal well was found to be contaminated with PCE, a dry cleaning solvent, but city officials secretly continued pumping drinking water from the well. A small group of residents who were concerned about the unusual incidence of cancer and childhood illnesses researched the situation and uncovered documents revealing the ongoing use of the poisoned well. In 2009, the Chicago Tribune published the residents’ research, provoking extensive investigation of the water supply scandal and why it had been covered up for over two decades by village officials and the Illinois EPA. The scandal instigated several lawsuits, changes in state EPA legislation, and studies which revealed significantly elevated cancer rates in Crestwood residents.",
+    "image": "img/ct-ct-ct-met-crestwood-water-trial-004-jpg-20150918.jpg"
+  },
+  {
+    "id": 11,
+    "y": 0,
+    "type": "event",
+    "title": "Milwaukee Disease Outbreak",
+    "year": 1993,
+    "location": "Milwaukee, WI",
+    "headline": "",
+    "description": "One of Milwaukee’s water treatment plants was contaminated with Cryptosporidium bacteria from a sewage treatment plant 2 miles upstream. The water was insufficiently filtered and 1.6 million people became ill in the 2 weeks before the water treatment plant was shut down. 104 deaths were attributed to the water contamination issue and the crisis is considered the largest documented waterborne disease outbreak in US history.",
+    "image": "img/eim-headline1.jpg"
+  },
+  {
+    "id": 12,
+    "y": 0,
+    "type": "legislation",
+    "title": "Unregulated Contaminant Monitoring Rule (UCMR)",
+    "year": 1996,
+    "location": "",
+    "headline": "So far, no additional chemicals regulated under UCMR",
+    "description": "EPA uses the UCMR to collect data for contaminants that are suspected to be present in drinking water and do not have health-based standards set under the Safe Drinking Water Act (SDWA). The SDWA amendments of 1996 provides for: Monitoring no more than 30 contaminants every five years; monitoring large systems and a representative sample of small public water systems serving less than 10,000 people; Storing analytical results in a National Contaminant Occurrence Database (NCOD). The fourth Unregulated Contaminant Monitoring Rule (UCMR 4) was published at the end of 2016.",
+    "image": "img/UCMR.jpg"
+  },
+  {
+    "id": 13,
+    "y": 0,
+    "type": "event",
+    "title": "Washington D.C. Lead Contamination",
+    "year": 2001,
+    "location": "Washington, D.C.",
+    "headline": "",
+    "description": "District of Columbia Water and Sewer Authority switched from chlorine to chloramine, which is more corrosive to lead pipes and resulted in elevated lead levels, up to 83 times the accepted safe limit. An expose in the Washington Post instigated national concern about lead contamination in drinking water, resulting in investigations that revealed widespread misreporting of lead levels throughout the US and ultimately brought about more stringent EPA water quality regulations.",
+    "image": "img/lead_082.jpg"
+  },
+  {
+    "id": 14,
+    "y": 0,
+    "type": "legislation",
+    "title": "PFOA Stewardship Program (PSP)",
+    "year": 2006,
+    "location": "",
+    "headline": "",
+    "description": "The EPA invited eight major leading companies in the per- and polyfluoroalkyl substances (PFASs) industry to join in a global stewardship program with two goals: A 95% reduction in both facility emissions to all media of perfluorooctanoic acid (PFOA, the chemical used in the manufacture of teflon cookware), precursor chemicals that can break down to PFOA, and related higher homologue chemicals, and product content levels of these chemicals; and to commit to working toward the elimination of these chemicals from emissions and products by 2015.",
+    "image": "img/PSP.jpg"
+  },
+  {
+    "id": 15,
+    "y": 0,
+    "type": "legislation",
+    "title": "Clean Boating Act (CBA)",
+    "year": 2008,
+    "location": "",
+    "headline": "",
+    "description": "The CBA is an amendment to the Clean Water Act. It requires EPA to identify discharges incidental to the normal operation of recreational vessels for which management practices are reasonable and practicable to develop. These management practices can help to limit the amount of pollution discharged into our nation's waters.",
+    "image": "img/CBA.jpg"
+  },
+  {
+    "id": 16,
+    "y": 0,
+    "type": "event",
+    "title": "Elk River Chemical Spill",
+    "year": 2014,
+    "location": "Charleston, WV",
+    "headline": "",
+    "description": "Freedom Industries leaked up to 7,500 gallons of MCHM, a chemical foaming agent used in coal processing, into the Elk River. The leak came from a hole in a storage tank located just one mile upstream from the water treatment plant, leaving 300,000 residents without access to potable water. The spill was declared a federal state of emergency and almost 700 people reported symptoms of chemical exposure and 169 were hospitalized with health problems related to the water contamination. A week after the spill, Freedom Industries faced 19 lawsuits and filed for bankruptcy.",
+    "image": "img/FI-tank-farm-WV.jpg"
+  },
+  {
+    "id": 17,
+    "y": 40,
+    "type": "event",
+    "title": "Flint Water Crisis",
+    "year": 2014,
+    "location": "Flint, MI",
+    "headline": "",
+    "description": "When Flint’s water supply switched from the Detroit water system to the Flint River as a cost-cutting measure, but insufficient water treatment resulted in elevated lead levels in the drinking water. Anti-corrosion treatment was not used, which caused leaching from the city’s old lead service lines. In January 2016, a federal state of emergency was declared and residents have been instructed not to ingest or bathe in the water until the lead pipes are replaced in 2020. Up to 100,000 people have been potentially exposed to toxic lead levels and 10 people died in an outbreak of Legionnaire’s Disease, possibly caused by the water change.",
+    "image": "img/flintwater.jpg"
+  },
+  {
+    "id": 18,
+    "y": 0,
+    "type": "event",
+    "title": "Newark Public Schools",
+    "year": 2016,
+    "location": "Newark, NJ",
+    "headline": "",
+    "description": "Drinking water supplies were shut off in 30 schools after tests revealed lead levels just above the EPA’s threshold for additional testing, most likely the result of leaching from old lead pipes in the building plumbing. Currently, the schools conduct ongoing water testing, offer screenings for lead in children’s blood, and provide alternative water sources while they seek funding for water infrastructure upgrades.",
+    "image": "img/01LEAD-master768.jpg"
+  }
+]
