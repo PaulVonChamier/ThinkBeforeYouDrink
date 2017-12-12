@@ -82,7 +82,7 @@ function uncheckTicks() {
             d3.selectAll(".bySearch").remove();
             var color = colorPalette(d.region2);
             var xPosition = d3.mouse(this)[0];
-            var yPosition = d3.mouse(this)[1] - 6;
+            var yPosition = d3.mouse(this)[1] - 3;
 
             svg2.append("text")
                 .attr("id", "tooltip2")
@@ -460,7 +460,7 @@ function updateMapVisualization(){
             d3.selectAll(".bySearch").remove();
             var color = colorPalette(d.region2);
             var xPosition = d3.mouse(this)[0];
-            var yPosition = d3.mouse(this)[1] - 16;
+            var yPosition = d3.mouse(this)[1] - 3;
 
             svg2.append("text")
                 .attr("id", "tooltip2")
