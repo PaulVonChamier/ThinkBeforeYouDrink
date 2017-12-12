@@ -303,7 +303,7 @@ svg {
 /****************/
 
 .bubble {
-    opacity: 0.6;
+    opacity: 0.75;
     stroke-width: 0.7;
     z-index: 1;
 }
