@@ -142,7 +142,7 @@ font-family: 'Playfair Display', serif;
     left: 50%;
     top: 50%;
     z-index: 20;
-    transform: translate(-80%, -80%) scale(.5);
+    transform: translate(-50%, -50%) scale(.05);
 }
 
 .WIMW {
